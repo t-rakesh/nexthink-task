@@ -13,11 +13,10 @@ pip install requirements.txt
 ##### Run
 
 ###### Challenge 1
-`python pstat.py -n/--name '<process name>' -d/--duration <duration in sec> -i/--interval <interval in sec>`
+```
+python pstat.py -n/--name '<process name>' -d/--duration <duration in sec> [-i/--interval <interval in sec default 5s>]
+```
 
-```
-usage: pstat [-h] -n NAME -d DURATION [-i INTERVAL]
-```
 e.g.
 `python pstat.py -n 'chrome' --duration 60 --interval 5`
 
